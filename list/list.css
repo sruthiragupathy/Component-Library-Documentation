@@ -1,0 +1,18 @@
+/* list */
+.list-group {
+  border: 1px solid var(--lightgrey2);
+  width: 70%;
+}
+
+.list-item {
+  padding: 1.25rem 0.75rem;
+  border-bottom: 1px solid var(--lightgrey2);
+}
+
+.list-item:nth-last-child(1) {
+  border-bottom: none;
+}
+
+.list-item:hover {
+  background: var(--light-grey1);
+}

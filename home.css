@@ -1,0 +1,45 @@
+* {
+  scroll-behavior: smooth;
+}
+.landing-page {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background: var(--lightpurple2);
+}
+
+.landing-page__content {
+  width: 100%;
+}
+
+.landing-page__content h1 {
+  color: var(--purple);
+}
+
+.landing-page__content p {
+  line-height: 1.75rem;
+  text-align: justify;
+}
+
+.landing-page__btns button:nth-child(1) {
+  margin-right: 2rem;
+}
+
+.installation {
+  padding: 1rem;
+}
+
+.docs__btn {
+  height: 5rem;
+  justify-content: flex-start;
+}
+
+/* desktop */
+@media only screen and (min-width: 750px) {
+  .landing-page__content {
+    width: 40%;
+  }
+}

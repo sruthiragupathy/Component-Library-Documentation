@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Labs | Docs</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="responsive-grid.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <!-- navbar -->
+     <nav class = "navbar flex">
+        <ul class = "left rm-ul-padding">
+            <li class = "navbar__list">
+                <a href="/" class="circle-border">SR</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/">Home</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/" class = "current-page">Docs</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/">Examples</a>
+            </li>
+        </ul>
+        <ul class = "social-btns rm-ul-padding">
+            <li class = "navbar__list pointer">
+                <a href="https://github.com/sruthiragupathy/Component-Library-Docs"><i class = "fa fa-github fa-2x"></i></a>
+            </li>
+            <li class = "navbar__list pointer">
+                <a href="https://twitter.com/CodesSruthi"><i class = "fa fa-twitter fa-2x"></i></a>
+            </li>
+        </ul>
+        <div class="hamburger-menu pointer">
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <ul class = "menu__mobile-none rm rm-ul-padding">
+            <a href = "/avatar/avatar.html" class = "sidebar__item">Avatar</a>
+            <a href = "/alert/alert.html" class = "sidebar__item">Alert</a>
+            <a href = "/badge/badge.html" class = "sidebar__item">Badges</a>
+            <a href = "/button/button.html" class = "sidebar__item">Buttons</a>
+            <a href = "/card/card.html" class = "sidebar__item">Cards</a>
+            <a href = "/responsive-image/responsive-image.html" class = "sidebar__item">Responsive Images</a>
+            <a href = "/form/form.html" class = "sidebar__item">Forms</a>
+            <a href = "/modal/modal.html" class = "sidebar__item">Modal</a>
+            <a href = "/navbar/navbar.html" class = "sidebar__item">Navbar</a>
+            <a href = "/list/list.html" class = "sidebar__item">List</a>
+            <a href = "/responsive-grid/responsive-grid.html current-item" class = "sidebar__item">Responsive Grid</a>
+            <a href = "/typography/typography.html" class = "sidebar__item">Typography</a>
+            <a href = "/other-utilities/other-utilities.html" class = "sidebar__item">Other Utilities</a>
+        </ul>
+        <ul class = "sidebar rm rm-ul-padding">
+            <a href = "/avatar/avatar.html" class = "sidebar__item">Avatar</a>
+            <a href = "/alert/alert.html" class = "sidebar__item">Alert</a>
+            <a href = "/badge/badge.html" class = "sidebar__item">Badges</a>
+            <a href = "/button/button.html" class = "sidebar__item">Buttons</a>
+            <a href = "/card/card.html" class = "sidebar__item">Cards</a>
+            <a href = "/responsive-image/responsive-image.html" class = "sidebar__item">Responsive Images</a>
+            <a href = "/form/form.html" class = "sidebar__item">Forms</a>
+            <a href = "/modal/modal.html" class = "sidebar__item">Modal</a>
+            <a href = "/navbar/navbar.html" class = "sidebar__item">Navbar</a>
+            <a href = "/list/list.html" class = "sidebar__item">List</a>
+            <a href = "/responsive-grid/responsive-grid.html" class = "sidebar__item current-item">Responsive Grid</a>
+            <a href = "/typography/typography.html" class = "sidebar__item">Typography</a>
+            <a href = "/other-utilities/other-utilities.html" class = "sidebar__item">Other Utilities</a>
+        </ul>
+        <div class="page-wrapper">
+           <h1 class = "rm">Responsive Grid</h1>
+           <div>
+               <p>This is a responsive grid that changes the count of the card in a row according to the size of the view port. The class responsible for this style is <span class = "txt-highlight">responsive-grid</span> and use your <span class = "txt-highlight">div</span> elements inside </p>
+               
+                <div class="responsive-grid">
+                    <div class="card pointer">
+                        <img class="responsive-img" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9329399/2019/4/24/8df4ed41-1e43-4a0d-97fe-eb47edbdbacd1556086871124-Libas-Women-Kurtas-6161556086869769-1.jpg" alt="">
+                        <div class="card__description">
+                            <div class="primary">
+                                <h3 class="rm">Anouk</h3>
+                                <small class="light">Printed Straight Kurta</small>
+                                <div class="price">
+                                    <h5 class = "rm"><strong>Rs. 700 </strong></h5>
+                                    <h5 class="rm light strikethrough">Rs.1400 </span>
+                                    <h5 class="rm discount">(50% OFF)</span>
+                                </div>
+                            </div>
+                            <div class="secondary">
+                                <span class="orange-txt"><strong>Only few left!</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card pointer">
+                        <img class="responsive-img" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9329399/2019/4/24/8df4ed41-1e43-4a0d-97fe-eb47edbdbacd1556086871124-Libas-Women-Kurtas-6161556086869769-1.jpg" alt="">
+                        <div class="card__description">
+                            <div class="primary">
+                                <h3 class="rm">Anouk</h3>
+                                <small class="light">Printed Straight Kurta</small>
+                                <div class="price">
+                                    <h5 class = "rm"><strong>Rs. 700 </strong></h5>
+                                    <h5 class="rm light strikethrough">Rs.1400 </span>
+                                    <h5 class="rm discount">(50% OFF)</span>
+                                </div>
+                            </div>
+                            <div class="secondary">
+                                <span class="orange-txt"><strong>Only few left!</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card pointer">
+                        <img class="responsive-img" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9329399/2019/4/24/8df4ed41-1e43-4a0d-97fe-eb47edbdbacd1556086871124-Libas-Women-Kurtas-6161556086869769-1.jpg" alt="">
+                        <div class="card__description">
+                            <div class="primary">
+                                <h3 class="rm">Anouk</h3>
+                                <small class="light">Printed Straight Kurta</small>
+                                <div class="price">
+                                    <h5 class = "rm"><strong>Rs. 700 </strong></h5>
+                                    <h5 class="rm light strikethrough">Rs.1400 </span>
+                                    <h5 class="rm discount">(50% OFF)</span>
+                                </div>
+                            </div>
+                            <div class="secondary">
+                                <span class="orange-txt"><strong>Only few left!</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522responsive-grid%2522%253E%250A%2520%2520%252F%252Fcard%2520items%2520goes%2520here%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 127px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+               
+              
+        </div>
+           
+        </div>
+    </div>
+    <script src = "../index.js"></script>
+    </body>
+    </html>

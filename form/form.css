@@ -1,0 +1,36 @@
+/* form */
+.field-container {
+  padding: 1rem;
+}
+
+.input-group {
+  position: relative;
+  /* margin: 2rem; */
+}
+.input-group .input-area {
+  outline: none;
+  border: 1px solid var(--lightgrey2);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.input-group label {
+  position: absolute;
+  left: 0.75rem;
+  top: 0.75rem;
+  color: var(--midgrey);
+  background: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.input-area:focus {
+  border: 2px solid var(--purple);
+}
+
+.input-area:focus + label {
+  top: -10px;
+  padding: 0 0.45rem;
+  color: var(--purple);
+  font-size: 1rem;
+}
