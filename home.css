@@ -19,6 +19,11 @@
   color: var(--purple);
 }
 
+.landing-page__img img {
+  max-width: 100%;
+  width: 600px;
+}
+
 .landing-page__content p {
   line-height: 1.75rem;
   text-align: justify;

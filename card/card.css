@@ -19,20 +19,20 @@ p {
 }
 
 .responsive-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .card__description {
-  padding: 0.5rem 0.75rem;
-  height: 5.5rem;
+  padding: 0.5rem 0.75rem 0.75rem 0.75rem;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .primary {
-  height: 4.25rem;
   display: flex;
+  height: 8rem;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -218,5 +218,32 @@ p {
 }
 
 .wishlist {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
   color: var(--purple);
+  background: transparent;
+}
+
+.wishlist .fa-heart {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--purple);
+}
+
+.wishlist .fa-heart:hover {
+  color: var(--lightpurple2);
+}
+
+.wishlisted {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+}
+
+.wishlisted .fa-heart {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--red);
 }

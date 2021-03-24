@@ -190,7 +190,7 @@ button {
   background: var(--lightpurple1);
 } */
 .responsive-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* sidebar */
@@ -269,7 +269,8 @@ button {
 }
 
 .carbon-container {
-  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
   margin-top: 2rem;
 }
 
