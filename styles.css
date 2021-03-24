@@ -7,6 +7,8 @@
 @import url("responsive-image/responsive-image.css");
 @import url("form/form.css");
 @import url("modal/modal.css");
+@import url("navbar/navbar.css");
+@import url("responsive-grid/responsive-grid.css");
 
 html,
 body {
