@@ -1,0 +1,15 @@
+.navbar-component {
+  background: var(--purple);
+  color: var(--light-grey);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-component .social-btns {
+  display: none;
+}
+
+@media only screen and (min-width: 750px) {
+  .navbar-component .social-btns {
+    display: flex;
+  }
+}

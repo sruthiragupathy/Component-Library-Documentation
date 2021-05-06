@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Labs | Docs</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <!-- navbar -->
+     <nav class = "navbar flex">
+        <ul class = "left rm-ul-padding">
+            <li class = "navbar__list">
+                <a href="/" class="circle-border">SR</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/">Home</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/" class = "current-page">Docs</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/">Examples</a>
+            </li>
+        </ul>
+        <ul class = "social-btns rm-ul-padding">
+            <li class = "navbar__list pointer">
+                <a href="https://github.com/sruthiragupathy/Component-Library-Docs"><i class = "fa fa-github fa-2x"></i></a>
+            </li>
+            <li class = "navbar__list pointer">
+                <a href="https://twitter.com/CodesSruthi"><i class = "fa fa-twitter fa-2x"></i></a>
+            </li>
+        </ul>
+        <div class="hamburger-menu pointer">
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <ul class = "menu__mobile-none rm rm-ul-padding">
+            <a href = "/avatar/avatar.html" class = "sidebar__item">Avatar</a>
+            <a href = "/alert/alert.html" class = "sidebar__item">Alert</a>
+            <a href = "/badge/badge.html" class = "sidebar__item">Badges</a>
+            <a href = "/button/button.html" class = "sidebar__item">Buttons</a>
+            <a href = "/card/card.html" class = "sidebar__item current-item">Cards</a>
+            <a href = "/responsive-image/responsive-image.html" class = "sidebar__item">Responsive Images</a>
+            <a href = "/form/form.html" class = "sidebar__item">Forms</a>
+            <a href = "/modal/modal.html" class = "sidebar__item">Modal</a>
+            <a href = "/navbar/navbar.html" class = "sidebar__item">Navbar</a>
+            <a href = "/list/list.html" class = "sidebar__item">List</a>
+            <a href = "/responsive-grid/responsive-grid.html" class = "sidebar__item">Responsive Grid</a>
+            <a href = "/typography/typography.html" class = "sidebar__item">Typography</a>
+            <a href = "/other-utilities/other-utilities.html" class = "sidebar__item">Other Utilities</a>
+        </ul>
+        <ul class = "sidebar rm rm-ul-padding">
+            <a href = "/avatar/avatar.html" class = "sidebar__item">Avatar</a>
+            <a href = "/alert/alert.html" class = "sidebar__item">Alert</a>
+            <a href = "/badge/badge.html" class = "sidebar__item">Badges</a>
+            <a href = "/button/button.html" class = "sidebar__item">Buttons</a>
+            <a href = "/card/card.html" class = "sidebar__item current-item">Cards</a>
+            <a href = "/responsive-image/responsive-image.html" class = "sidebar__item">Responsive Images</a>
+            <a href = "/form/form.html" class = "sidebar__item">Forms</a>
+            <a href = "/modal/modal.html" class = "sidebar__item">Modal</a>
+            <a href = "/navbar/navbar.html" class = "sidebar__item">Navbar</a>
+            <a href = "/list/list.html" class = "sidebar__item">List</a>
+            <a href = "/responsive-grid/responsive-grid.html" class = "sidebar__item">Responsive Grid</a>
+            <a href = "/typography/typography.html" class = "sidebar__item">Typography</a>
+            <a href = "/other-utilities/other-utilities.html" class = "sidebar__item">Other Utilities</a>
+        </ul>
+        <div class="page-wrapper">
+            <h1 class="rm">Cards</h1>
+            <p>Copy the styles of different cards and use it in your code</p>
+            <!-- vertical card -->
+            <div>
+                <h3>Vertical card</h3>
+                <div class="flex-center">
+                    <div class="card pointer">
+                        <img class="responsive-img" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9329399/2019/4/24/8df4ed41-1e43-4a0d-97fe-eb47edbdbacd1556086871124-Libas-Women-Kurtas-6161556086869769-1.jpg" alt=""/>
+                        <div class="card__description">
+                            <div class="primary">
+                                <h3 class="rm">Anouk</h3>
+                                <small class="light">Printed Straight Kurta</small>
+                                <div class="price">
+                                    <h5 class = "rm"><strong>Rs. 700 </strong></h5>
+                                    <h5 class="rm light strikethrough">Rs.1400 </h5>
+                                    <h5 class="rm discount">(50% OFF)</h5>
+                                </div>
+                                <div class="secondary">
+                                    <span class="orange-txt"><strong>Only few left!</strong></span>
+                                </div>
+                                <button class = "btn btn-primary">Add to Cart</button>
+                            </div>
+                            <button class = "btn-icon btn-social-engagement wishlist">
+                                <i class="fa fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520pointer%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522responsive-img%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%2520%253D%2520%2522card__badge%2522%253ENEW%253C%252Fspan%253E%250A%2509%253Cdiv%2520class%253D%2522card__description%2522%253E%250A%2520%2509%2509%253Cdiv%2520class%253D%2522primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522rm%2522%253EAnouk%253C%252Fh3%253E%250A%2520%2520%2509%2509%2520%2520%2520%253Csmall%2520class%253D%2522light%2522%253EPrinted%2520Straight%2520Kurta%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Ch5%2520class%2520%253D%2520%2522rm%2522%253E%253Cstrong%253ERs.%2520700%2520%253C%252Fstrong%253E%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522rm%2520light%2520strikethrough%2522%253ERs.1400%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522rm%2520discount%2522%253E%2850%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522orange-txt%2522%253E%253Cstrong%253EOnly%2520few%2520left%21%253C%252Fstrong%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn%2520btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%2509%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520btn-social-engagement%2520wishlist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 469px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                
+            </div>
+            <!-- vertical card with badges -->
+            <div>
+                <h3>Vertical card with badge</h3>
+                <div class="flex-center" style="justify-content:space-evenly;">
+                    <div class="card pointer">
+                        <img class="responsive-img" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9329399/2019/4/24/8df4ed41-1e43-4a0d-97fe-eb47edbdbacd1556086871124-Libas-Women-Kurtas-6161556086869769-1.jpg" alt="">
+                        <span class = "card__badge">NEW</span>
+                        <div class="card__description">
+                            <div class="primary">
+                                <h3 class="rm">Anouk</h3>
+                                <small class="light">Printed Straight Kurta</small>
+                                <div class="price">
+                                    <h5 class = "rm"><strong>Rs. 700 </strong></h5>
+                                    <h5 class="rm light strikethrough">Rs.1400 </span>
+                                    <h5 class="rm discount">(50% OFF)</span>
+                                </div>
+                                <button class = "btn btn-primary">Add to Cart</button>
+                            </div>
+                            <button class = "btn-icon btn-social-engagement wishlist wishlist-purple">
+                                <i class="fa fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card pointer">
+                        <img class="responsive-img" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9329399/2019/4/24/8df4ed41-1e43-4a0d-97fe-eb47edbdbacd1556086871124-Libas-Women-Kurtas-6161556086869769-1.jpg" alt="">
+                        <span class = "card__badge">SALE</span>
+                        <div class="card__description">
+                            <div class="primary">
+                                <h3 class="rm">Anouk</h3>
+                                <small class="light">Printed Straight Kurta</small>
+                                <div class="price">
+                                    <h5 class = "rm"><strong>Rs. 700 </strong></h5>
+                                    <h5 class="rm light strikethrough">Rs.1400 </span>
+                                    <h5 class="rm discount">(50% OFF)</span>
+                                </div>
+                                <button class = "btn btn-primary">Add to Cart</button>
+                            </div>
+                            <button class = "btn-icon wishlist wishlist-red">
+                                <i class="fa fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card%2520pointer%2522%253E%250A%2520%2509%253Cimg%2520class%253D%2522responsive-img%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cspan%2520class%2520%253D%2520%2522card__badge%2522%253ENEW%253C%252Fspan%253E%250A%2509%253Cdiv%2520class%253D%2522card__description%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ch3%2520class%253D%2522rm%2522%253EAnouk%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522light%2522%253EPrinted%2520Straight%2520Kurta%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ch5%2520class%2520%253D%2520%2522rm%2522%253E%253Cstrong%253ERs.%2520700%2520%253C%252Fstrong%253E%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522rm%2520light%2520strikethrough%2522%253ERs.1400%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522rm%2520discount%2522%253E%2850%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn%2520btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520btn-social-engagement%2520wishlist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 415px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>                   
+                </div>
+            </div>
+            <!-- card with dismiss -->
+            <div>
+                <h3>Card with dismiss</h3>
+                <p>On hovering , there is an option to close the card</p>
+                <div class="flex-center">
+                    <div class="dismiss-card pointer">
+                        <img class="responsive-img" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="">
+                        <button class = "btn-icon solid-close no-border"><i class="fa fa-close"></i></button>
+                        <div class="dismiss-card__description">
+                            <h3>Card title</h3>
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button class="btn btn-primary">Go Somewhere</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522dismiss-card%2520pointer%2522%253E%250A%2509%253Cimg%2520class%253D%2522responsive-img%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520solid-close%2520no-border%2522%253E%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dismiss-card__description%2522%253E%250A%2520%2520%2520%2520%2509%253Ch3%253ECard%2520title%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520Some%2520quick%2520example%2520text%2520to%2520build%2520on%2520the%2520card%2520title%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520and%2520make%2520up%2520the%2520bulk%2520of%2520the%2520cards%2520content.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EGo%2520Somewhere%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 289px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                
+            </div>
+            <!--Overlay Card-->
+            <div>
+                <h3>Overlay Card</h3>
+                <p>On hovering , there are text overlays</p>
+                <div class="flex-center">
+                    <div class="overlay-card pointer">
+                        <img class="responsive-img" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="">
+                        <div class="txt-overlay">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, adipisci.</p>
+                        </div>
+                        <button class = "btn-icon br trash"><i class="fa fa-trash fa-2x"></i></button>
+                    </div>
+                </div>
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522overlay-card%2520pointer%2522%253E%250A%2509%253Cimg%2520class%253D%2522responsive-img%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522txt-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520br%2520trash%2522%253E%253Ci%2520class%253D%2522fa%2520fa-trash%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 253px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+                
+            </div>
+            <!--Text Only Card-->
+            <div>
+                <h3>Text Only Card with shadow</h3>
+                <div class="flex-center">
+                    <div class="txt-card box-shadow pointer">
+                        <h3 class = "title">Card title</h3>
+                        <h5 class = "subtitle">Card Subtitle</h5>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button class="btn btn-primary">Go Somewhere</button>
+                    </div>
+                </div>
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522txt-card%2520box-shadow%2520pointer%2522%253E%250A%2509%253Ch3%2520class%2520%253D%2520%2522title%2522%253ECard%2520title%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ch5%2520class%2520%253D%2520%2522subtitle%2522%253ECard%2520Subtitle%253C%252Fh5%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520Some%2520quick%2520example%2520text%2520to%2520build%2520on%2520the%2520card%2520title%2520%250A%2520%2520%2520%2520%2520%2520and%2520make%2520up%2520the%2520bulk%2520of%2520the%2520cards%2520content.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EGo%2520Somewhere%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 235px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                
+            </div>
+            <!--Horizontal Card-->
+            <div>
+                <h3>Horizontal Card</h3>
+                <p>This is a horizontal card and it is responsive</p>
+                <div class="flex-center">
+                    <div class="horizontal-card">
+                        <div class="horizontal-card__cart-item">
+                            <div class="cart-item__img">
+                                <img class="responsive-img" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9329399/2019/4/24/8df4ed41-1e43-4a0d-97fe-eb47edbdbacd1556086871124-Libas-Women-Kurtas-6161556086869769-1.jpg" alt="">
+                            </div>
+                            <div class="cart-item__flex">
+                                <div class="cart-item__details">
+                                    <div class="details__primary">
+                                        <p class =  "rm"><strong>ANOUK</strong></p>
+                                        <p class="light rm">Printed Straight Kurta</p>
+                                        <small>Sold by: Flashtech Retail</small>
+                                    </div>
+                                    <div class = "details__btns">
+                                        <span class="badge primary-badge">Size: 1 <i class="fa fa-caret-down"></i></span>
+                                        <span class="badge primary-badge">Qty: 1 <i class="fa fa-caret-down"></i></span>
+                                    </div>
+                                </div>
+                                <div class="cart-item__price">
+                                    <h5 class = "rm"><strong>Rs. 700 </strong></h5>
+                                    <span class="rm light strikethrough">Rs.1400 </span>
+                                    <span class = "price__discount">(50% OFF)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="horizontal-card__btns">
+                            <div>
+                                <button class = "remove">REMOVE</button>
+                            </div>
+                            <div>
+                                <button class = "move-to-wishlist">MOVE TO WISHLIST</button>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522horizontal-card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522horizontal-card__cart-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522cart-item__img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart-item__flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522cart-item__details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522details__primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cp%2520class%2520%253D%2520%2520%2522rm%2522%253E%253Cstrong%253EANOUK%253C%252Fstrong%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522light%2520rm%2522%253EPrinted%2520Straight%2520Kurta%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253ESold%2520by%253A%2520Flashtech%2520Retail%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%2520%2522details__btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522badge%2520primary-badge%2522%253ESize%253A%25201%2520%253Ci%2520class%253D%2522fa%2520fa-caret-down%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520primary-badge%2522%253EQty%253A%25201%2520%253Ci%2520class%253D%2522fa%2520fa-caret-down%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522cart-item__price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Ch5%2520class%2520%253D%2520%2522rm%2522%253E%253Cstrong%253ERs.%2520700%2520%253C%252Fstrong%253E%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522rm%2520light%2520strikethrough%2522%253ERs.1400%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%2520%253D%2520%2522price__discount%2522%253E%2850%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card__btns%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520class%2520%253D%2520%2522remove%2522%253EREMOVE%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520class%2520%253D%2520%2522wishlist%2522%253EMOVE%2520TO%2520WISHLIST%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2509%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                    style="width: 100%; height: 667px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <!-- <iframe height="301" style="width: 100%;" scrolling="no" title="poNBPoE" src="https://codepen.io/sruthiragupathy/embed/preview/poNBPoE?height=301&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                        See the Pen <a href='https://codepen.io/sruthiragupathy/pen/poNBPoE'>poNBPoE</a> by sruthiragupathy
+                        (<a href='https://codepen.io/sruthiragupathy'>@sruthiragupathy</a>) on <a href='https://codepen.io'>CodePen</a>.
+                    </iframe> -->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src = "../index.js"></script>
+    </body>
+    </html>

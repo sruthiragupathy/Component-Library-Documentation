@@ -1,0 +1,22 @@
+/* Typography */
+
+.txt {
+  padding: 1rem;
+  border: 1px solid var(--light-grey1);
+  margin: 0.5rem;
+}
+
+.heading-txt {
+  font-size: 1.83rem;
+}
+
+.small-txt {
+  font-size: 0.75rem;
+}
+.grey-txt {
+  color: var(--lightgrey2);
+}
+
+.center-txt {
+  text-align: center;
+}

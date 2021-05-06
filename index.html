@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Labs | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class = "navbar flex">
+        <ul class = "left rm-ul-padding">
+            <li class = "navbar__list">
+                <a href="/" class="circle-border">SR</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/" class="current-page">Home</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/avatar/avatar.html">Docs</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/">Examples</a>
+            </li>
+        </ul>
+        <ul class = "social-btns rm-ul-padding">
+            <li class = "navbar__list pointer">
+                <a href="https://github.com/sruthiragupathy/Component-Library-Docs"><i class = "fa fa-github fa-2x"></i></a>
+            </li>
+            <li class = "navbar__list pointer">
+                <a href="https://twitter.com/CodesSruthi"><i class = "fa fa-twitter fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div class = "landing-page">
+        <div class="landing-page__img">
+            <img src = "undraw_designer_life_w96d.svg"/>
+        </div>
+        <div class = "landing-page__content">
+            <h1>UI Labs</h1>
+            <p>Build your UI faster by copying and pasting the components at one click. It is user-friendly and customizable. Spend less time in designing and concentrate more on logic without hustling on UI. Happy Coding!</p>
+            <div class = "landing-page__btns flex-center">
+                <button class="btn btn-outline-secondary"><a href="#installation">Installation</a></button>
+                <button class="btn btn-primary"><a href="/avatar/avatar.html">Read Documentation</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="installation" id = "installation">
+        <h1>Installation</h1>
+        <h2>CSS styles</h2>
+        <p>To get the styles of the components, add the following line of code in the <span class = "txt-highlight">head</span> tag of your html document</p>
+        <div class="carbon-container">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fui-labs-sr.netlify.app%252Fstyles.css%2522%253E"
+            style="width: 100%; height: 91px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+        <h2>Font Awesome Icons</h2>
+        <p>To get the Font Awesome Icons, add the following line of code in the <span class = "txt-highlight">head</span> tag of your html document</p>
+        <div class="carbon-container">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Ffont-awesome%252F4.7.0%252Fcss%252Ffont-awesome.min.css%2522%253E"
+            style="width: 100%; height: 91px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <div class="docs__btn flex-center">
+            <button class="btn btn-outline-primary"><a href="/avatar/avatar.html">Get Started with Documentation</a></button>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Developed by <strong>Sruthi Ragupathy</strong></p>
+        <div class="socials">
+            <button class = "btn-social" target="_blank">
+                <a href = "https://twitter.com/CodesSruthi">
+                    <i class="fa fa-twitter fa-2x"></i>
+                </a>
+            </button>
+            <!--github-->
+            <button class = "btn-social" target="_blank">
+                <a href = "https://github.com/sruthiragupathy">
+                    <i class="fa fa-linkedin fa-2x"></i>
+                </a>
+            </button>
+         <!--linked in-->
+            <button class = "btn-social" target="_blank">
+                <a href = "https://www.linkedin.com/in/sruthi-ragupathy-7740ab172/">
+                    <i class="fa fa-github fa-2x"></i>
+                </a>
+            </button>
+        <!--instagram-->
+            <button class = "btn-social">
+                <a href = "https://www.instagram.com/sruthi_codes/" target="_blank">
+                    <i class="fa fa-instagram fa-2x"></i>
+                </a>
+            </button>
+        <!--portfolio-->
+            <button class = "btn-social portfolio">
+                <a href = "http://sruthi.netlify.app/" target="_blank">SR</a>
+            </button>
+        </div>
+    </footer>
+    <script src = "index.js"></script>
+</body>
+</html>

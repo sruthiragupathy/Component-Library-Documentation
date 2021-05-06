@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Labs | Docs</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="button.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <!-- navbar -->
+     <nav class = "navbar flex">
+        <ul class = "left rm-ul-padding">
+            <li class = "navbar__list">
+                <a href="/" class="circle-border">SR</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/">Home</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/" class = "current-page">Docs</a>
+            </li>
+            <li class = "navbar__list">
+                <a href="/">Examples</a>
+            </li>
+        </ul>
+        <ul class = "social-btns rm-ul-padding">
+            <li class = "navbar__list pointer">
+                <a href="https://github.com/sruthiragupathy/Component-Library-Docs"><i class = "fa fa-github fa-2x"></i></a>
+            </li>
+            <li class = "navbar__list pointer">
+                <a href="https://twitter.com/CodesSruthi"><i class = "fa fa-twitter fa-2x"></i></a>
+            </li>
+        </ul>
+        <div class="hamburger-menu pointer">
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+        </div>
+    </nav>
+    <ul class = "menu__mobile-none rm rm-ul-padding">
+        <a href = "/avatar/avatar.html" class = "sidebar__item">Avatar</a>
+        <a href = "/alert/alert.html" class = "sidebar__item">Alert</a>
+        <a href = "/badge/badge.html" class = "sidebar__item">Badges</a>
+        <a href = "/button/button.html" class = "sidebar__item current-item">Buttons</a>
+        <a href = "/card/card.html" class = "sidebar__item">Cards</a>
+        <a href = "/responsive-image/responsive-image.html" class = "sidebar__item">Responsive Images</a>
+        <a href = "/form/form.html" class = "sidebar__item">Forms</a>
+        <a href = "/modal/modal.html" class = "sidebar__item">Modal</a>
+        <a href = "/navbar/navbar.html" class = "sidebar__item">Navbar</a>
+        <a href = "/list/list.html" class = "sidebar__item">List</a>
+        <a href = "/responsive-grid/responsive-grid.html" class = "sidebar__item">Responsive Grid</a>
+        <a href = "/typography/typography.html" class = "sidebar__item">Typography</a>
+        <a href = "/other-utilities/other-utilities.html" class = "sidebar__item">Other Utilities</a>
+    </ul>
+    <ul class = "sidebar rm rm-ul-padding">
+        <a href = "/avatar/avatar.html" class = "sidebar__item">Avatar</a>
+        <a href = "/alert/alert.html" class = "sidebar__item">Alert</a>
+        <a href = "/badge/badge.html" class = "sidebar__item">Badges</a>
+        <a href = "/button/button.html" class = "sidebar__item current-item">Buttons</a>
+        <a href = "/card/card.html" class = "sidebar__item">Cards</a>
+        <a href = "/responsive-image/responsive-image.html" class = "sidebar__item">Responsive Images</a>
+        <a href = "/form/form.html" class = "sidebar__item">Forms</a>
+        <a href = "/modal/modal.html" class = "sidebar__item">Modal</a>
+        <a href = "/navbar/navbar.html" class = "sidebar__item">Navbar</a>
+        <a href = "/list/list.html" class = "sidebar__item">List</a>
+        <a href = "/responsive-grid/responsive-grid.html" class = "sidebar__item">Responsive Grid</a>
+        <a href = "/typography/typography.html" class = "sidebar__item">Typography</a>
+        <a href = "/other-utilities/other-utilities.html" class = "sidebar__item">Other Utilities</a>
+    </ul>
+        <div class="page-wrapper">
+            <h1 class="rm">Buttons</h1>
+            <p>Copy the styles of different buttons and use it in your code</p>
+            <div>
+                <h3>Simple Buttons</h3>
+                <!-- actual buttons -->
+                <div class="buttons mb">
+                    <div class="individual-item">
+                        <button class="btn btn-primary">Primary</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-secondary">Secondary</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-success">Success</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-danger">Danger</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-warning">Warning</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-info">Info</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-light">Light</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-dark">Dark</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-link">Link</button>
+                    </div>
+                </div>
+            <div class="carbon-container">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-light%2522%253ELight%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-dark%2522%253EDark%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253ELink%253C%252Fbutton%253E"
+                style="width: 100%; height: 235px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+            <div>
+                <h3>Outlined Buttons</h3>
+                <!-- outlined buttons -->
+                <div class="buttons mb">
+                    <div class="individual-item">
+                        <button class="btn btn-outline-primary">Primary</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-outline-secondary">Secondary</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-outline-success">Success</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-outline-danger">Danger</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-outline-warning">Warning</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-outline-info">Info</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-outline-light">Light</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-outline-dark">Dark</button>
+                    </div>
+                </div>
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-info%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-light%2522%253ELight%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-dark%2522%253EDark%253C%252Fbutton%253E"
+                    style="width: 100%; height: 217px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                </div>
+                
+            </div>
+            <div>
+                <h3>Disabled Buttons</h3>
+                <!-- disabled buttons -->
+                <div class="buttons mb">
+                    <div class="individual-item">
+                        <button class="btn btn-primary disabled">Primary</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-secondary disabled">Secondary</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-success disabled">Success</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-danger disabled">Danger</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-warning disabled">Warning</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-info disabled">Info</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-light disabled">Light</button>
+                    </div>
+                    <div class="individual-item">
+                        <button class="btn btn-dark disabled">Dark</button>
+                    </div>
+                </div>
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520disabled%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520disabled%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2520disabled%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2520disabled%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2520disabled%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-info%2520disabled%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-light%2520disabled%2522%253ELight%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-dark%2520disabled%2522%253EDark%253C%252Fbutton%253E"
+                    style="width:100%; height: 217px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    
+                </div>
+                
+            </div>
+            <div>
+                <h3>Socials Buttons</h3>
+                <p>Use your respective social media links in the <span class = "txt-highlight">href</span> of <span class = "txt-highlight">anchor</span> tag</p>
+                <!-- disabled buttons -->
+                <div class="socials mb">
+                    <!--twitter-->
+                    <button class = "btn-social" target="_blank">
+                        <a href = "https://twitter.com/CodesSruthi">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+                    </button>
+                    <!--github-->
+                    <button class = "btn-social" target="_blank">
+                        <a href = "https://github.com/sruthiragupathy">
+                            <i class="fa fa-linkedin fa-2x"></i>
+                        </a>
+                    </button>
+                 <!--linked in-->
+                    <button class = "btn-social" target="_blank">
+                        <a href = "https://www.linkedin.com/in/sruthi-ragupathy-7740ab172/">
+                            <i class="fa fa-github fa-2x"></i>
+                        </a>
+                    </button>
+                <!--instagram-->
+                    <button class = "btn-social">
+                        <a href = "https://www.instagram.com/sruthi_codes/" target="_blank">
+                            <i class="fa fa-instagram fa-2x"></i>
+                        </a>
+                    </button>
+                <!--portfolio-->
+                <button class = "btn-social portfolio">
+                    <a href = "http://sruthi.netlify.app/" target="_blank">SR</a>
+                </button>
+                </div>
+                <div class="carbon-container">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--twitter--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-social%2522%253E%250A%2520%2520%253Ca%2520href%2520%253D%2520%2522%252Fhttps%253A%252F%252Ftwitter.com%252FCodesSruthi%2522%2520target%253D%2522_blank%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-twitter%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253C%21--linked%2520in--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-social%2522%253E%250A%2520%2520%253Ca%2520href%2520%253D%2520%2522%252Fhttps%253A%252F%252Fgithub.com%252Fsruthiragupathy%2522%2520target%253D%2522_blank%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-linkedin%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253C%21--github--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-social%2522%253E%250A%2520%2520%253Ca%2520href%2520%253D%2520%2522https%253A%252F%252Fwww.linkedin.com%252Fin%252Fsruthi-ragupathy-7740ab172%252F%2522%2520target%253D%2522_blank%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-github%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253C%21--instagram--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-social%2522%253E%250A%2520%2520%253Ca%2520href%2520%253D%2520%2522https%253A%252F%252Fwww.instagram.com%252Fsruthi_codes%252F%2522%2520target%253D%2522_blank%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-instagram%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253C%21--portfolio--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-social%2520portfolio%2522%253E%250A%2520%2520%253Ca%2520href%2520%253D%2520%2522http%253A%252F%252Fsruthi.netlify.app%252F%2522%2520target%253D%2522_blank%2522%253ESR%253C%252Fa%253E%250A%253C%252Fbutton%253E"
+                        style="width: 100%; height: 577px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    
+                </div>
+                
+            </div>
+            <div>
+                <h3>Icon Buttons</h3>
+                <div class="socials mb">
+                    <div class="individual-item">
+                        <button class = "btn-icon shopping-cart"><a href = "#"><i class="fa fa-shopping-cart fa-2x"></i></a></button>
+                    </div>
+                    <div class="individual-item">
+                        <button class = "btn-icon br trash"><i class="fa fa-trash-o fa-2x"></i></button>
+                    </div>
+                    <div class="individual-item">
+                        <button class = "btn-icon br trash"><i class="fa fa-trash fa-2x"></i></button>
+                    </div>
+                    <div class="individual-item">
+                        <button class = "btn-icon transparent-close"><i class="fa fa-close"></i></button>
+                    </div>
+                    <div class="individual-item">
+                        <button class = "btn-icon transparent-close no-border"><i class="fa fa-close"></i></button>
+                    </div>
+                    <div class="individual-item">
+                        <button class = "btn-icon solid-close no-border"><i class="fa fa-close"></i></button>
+                    </div>
+                    <div class="individual-item">
+                        <button class = "btn-icon btn-social-engagement"><i class="fa fa-heart-o"></i></button>
+                    </div>
+                    <div class="individual-item">
+                        <button class = "btn-icon btn-social-engagement"><i class="fa fa-heart"></i></button>
+                    </div>
+                    <div class="individual-item">
+                        <button class = "btn-icon btn-social-engagement"><i class="fa fa-comment-o"></i></button>
+                    </div>
+                    <div class="individual-item">
+                        <button class = "btn-icon btn-social-engagement"><i class="fa fa-share-square-o"></i></button>
+                    </div>
+                    <div class="individual-item">
+                        <button class = "btn-icon btn-social-engagement"><i class="fa fa-share-alt"></i></button>
+                    </div>
+                </div>
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--shopping%2520cart--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520shopping-cart%2522%253E%250A%2520%2520%253Ca%2520href%2520%253D%2520%2522%252F%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253C%21--outline-trash--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520br%2520trash%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-trash-o%2520fa-2x%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253C%21--solid-trash--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520br%2520trash%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-trash%2520fa-2x%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253C%21--transparent-close--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520transparent-close%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253C%21--transparent-close%2520with%2520no%2520border--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520transparent-close%2520no-border%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253C%21--solid%2520close--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520solid-close%2520no-border%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253C%21--outline-heart--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520btn-social-engagement%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart-o%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253C%21--liked-heart--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520btn-social-engagement%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253C%21--outlined-comment--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520btn-social-engagement%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-comment-o%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253C%21--squared-share--%253E%250A%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520btn-social-engagement%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-square-o%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253C%21--alt-share--%253E%250A%2520%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520btn-social-engagement%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                    style="width: 100%; height: 901px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    
+                </div>
+                
+            </div>
+            <div>
+                <h3>Floating Action Button</h3>
+                <!-- floating action button -->
+                <div class="buttons mb">
+                    <button class = "btn-floating-action">+</button>
+                </div>
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%2520%253D%2520%2522btn-floating-action%2522%253E%252B%253C%252Fbutton%253E"
+                    style="width: 100%; height: 91px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                    
+                </div>
+             </div>
+        </div>
+    </div>
+    </div>
+    <script src = "../index.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,22 @@
+.flex-center {
+  flex-direction: column;
+}
+
+/* toast */
+.toast {
+  width: 20rem;
+  padding: 1rem;
+  background: var(--darkgrey);
+  color: var(--light-grey);
+  border-bottom: 7px solid var(--lightpurple1);
+  text-align: center;
+}
+
+/* rating */
+.rating .fa {
+  font-size: 1.5rem;
+}
+
+.rating .fa-star {
+  color: var(--purple);
+}
