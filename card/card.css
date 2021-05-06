@@ -51,10 +51,10 @@ p {
 }
 
 .discount {
-  color: var(--light-grey);
-  background: red;
-  padding: 0.1rem 0.25rem;
-  border-radius: 0.25rem;
+  color: var(--purple);
+  /* background: red; */
+  /* padding: 0.1rem 0.25rem; */
+  /* border-radius: 0.25rem; */
 }
 
 .secondary .orange-txt {
@@ -181,7 +181,12 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .cart-item__price {
@@ -217,33 +222,34 @@ p {
   color: var(--midgrey);
 }
 
+.move-to-wishlist {
+  color: var(--purple);
+}
+
 .wishlist {
   position: absolute;
-  top: 1rem;
+  top: 0.5rem;
   right: 1rem;
   font-size: 1.5rem;
+}
+
+.wishlist-purple {
   color: var(--purple);
   background: transparent;
 }
 
-.wishlist .fa-heart {
+.wishlist-purple .fa-heart {
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--purple);
 }
 
-.wishlist .fa-heart:hover {
+.wishlist-purple .fa-heart:hover {
   color: var(--lightpurple2);
 }
 
-.wishlisted {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 1.5rem;
-}
-
-.wishlisted .fa-heart {
+.wishlist-red .fa-heart {
+  color: var(--darkred);
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--red);
+  -webkit-text-stroke-color: var(--darkred);
 }

@@ -1,59 +1,61 @@
 /* badge */
 .badge-container {
-    margin: 1rem;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .badge {
-    padding: 0.25rem;
-    font-size: 0.65rem;
-    font-weight: bold;
-  }
-  
-  .primary-badge {
-    color: var(--light-grey);
-    background: var(--purple);
-  }
-  
-  .secondary-badge {
-    border: 1.5px solid var(--purple);
-    color: var(--purple);
-  }
-  
-  .pill-badge-primary {
-    color: var(--light-grey);
-    background: var(--purple);
-    border-radius: 10px;
-  }
-  
-  .pill-badge-secondary {
-    border: 1.5px solid var(--purple);
-    color: var(--purple);
-    border-radius: 10px;
-  }
-  
-  .avatar-badge-container,.notification-badge-container {
-    position: relative;
-  }
-  
-  .avatar-badge,.notification-badge {
-    min-width: 1rem;
-    height: 1rem;
-    padding: 0.15rem;
-    border-radius: 50%;
-    background: var(--purple);
-    color: var(--light-grey);
-    position: absolute;
-    bottom: 75%;
-    right: -10%;
-    font-size: 0.65rem;
-    font-weight: bold;
-  }
-  
-  .avatar-badge-container .fa,  .notification-badge-container .fa {
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--darkgrey);
-  }
-  
+  margin: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.badge {
+  padding: 0.25rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+}
+
+.primary-badge {
+  color: var(--light-grey);
+  background: var(--purple);
+}
+
+.secondary-badge {
+  border: 1.5px solid var(--purple);
+  color: var(--purple);
+}
+
+.pill-badge-primary {
+  color: var(--light-grey);
+  background: var(--purple);
+  border-radius: 10px;
+}
+
+.pill-badge-secondary {
+  border: 1.5px solid var(--purple);
+  color: var(--purple);
+  border-radius: 10px;
+}
+
+.avatar-badge-container,
+.notification-badge-container {
+  position: relative;
+}
+
+.avatar-badge,
+.notification-badge {
+  min-width: 1rem;
+  height: 1rem;
+  padding: 0.15rem;
+  border-radius: 50%;
+  background: var(--purple);
+  color: var(--light-grey);
+  position: absolute;
+  bottom: 75%;
+  right: -10%;
+  font-size: 0.65rem;
+  font-weight: bold;
+}
+
+.avatar-badge-container .fa,
+.notification-badge-container .fa {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--darkgrey);
+}
